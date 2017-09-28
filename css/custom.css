@@ -1,0 +1,35 @@
+body {
+    color: #525252;
+}
+
+.page {
+    margin: 10px 20px;
+}
+
+/* for testing */
+.sidebar,
+.main {
+    min-height: 600px;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+/* colors */
+.header {
+  background: rgba(221,204,229,1);
+}
+
+.sidebar {
+    background: rgba(212,229,204,1);
+}
+
+.main {
+    background: #f9f9f9;
+}
+
+.footer {
+    background: rgba(229,221,204,1);
+    padding: 20px 10px;
+}

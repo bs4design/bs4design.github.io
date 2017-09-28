@@ -1,0 +1,156 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #525252;
+  background-color: #fff;
+}
+
+.page {
+    20px 0;
+}
+
+.page:after,
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+}
+
+.header {
+  background: rgba(221,204,229,1);
+  margin-bottom: -24px;
+  min-height: 120px;
+  width: 100%;
+}
+
+.main-wrapper {
+  float: right;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.main {
+  margin-left: 320px;
+  overflow: auto;
+  background: #f9f9f9;
+  min-height: 600px;
+}
+
+.sidebar {
+  background: rgba(212,229,204,1);
+  position: relative;
+  width: 320px;
+  margin-right: -320px;
+  float: right;
+  overflow: hidden;
+  min-height: 600px;
+}
+
+.footer {
+  clear: both;
+  background: rgba(229,221,204,1);
+  min-height: 150px;
+  width: 100%;
+}
+
+a:link {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9b59b6;
+}
+
+a:active,
+a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+
+.site-title {
+  padding: 45px 40px;
+  width: 45%;
+}
+
+.content {
+  margin: 0 20px;
+}
+
+.sidebar-content {
+  /*margin: 0 20px;*/
+  width: 100%;
+}
+
+ul.nav {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.nav li {
+  padding: 5px 10px;
+}
+
+.nav li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 30px;
+  margin-left: -10px;
+  padding: 0 10px;
+}
+
+.nav li a:hover {
+  background: rgba(204,212,229,1);
+}
+
+.search-form {
+  float: right;
+  width: 320px;
+  margin: -90px 0px;
+}
+
+.cr {
+  clear:both;
+  padding: 20px 0 0 40px;
+}
+
+.di {
+  float: right;
+  margin-top: -50px;
+  width: 150px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .site-title,
+  .search-form,
+  .sidebar {
+    float: left;
+    margin: 0;
+    width: 100%;
+  }
+  .search-form {
+    margin: 0 30px;
+    margin-bottom: 50px;
+  }
+  .main {
+    margin-left: 0;
+  }
+  .cr, .di {
+    float: left:
+    margin: 0;
+    width: 100%;
+  }
+}
