@@ -6,6 +6,11 @@ body {
     margin: 10px 20px;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 /* for testing */
 .sidebar,
 .main {
